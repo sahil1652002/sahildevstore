@@ -299,10 +299,11 @@
   {%- endif -%}
 </media-gallery>
     <script>
-$('.slider-mobile-gutter').slick({
-   slidesToShow: 3,
-   slidesToScroll: 1,
-   dots: true,
-   focusOnSelect: true
- });      
+      $(document).ready(function () {
+  $(".slider-mobile-gutter").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
+});
+      
     </script>

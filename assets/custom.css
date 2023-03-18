@@ -1,0 +1,7 @@
+.card article-card{
+  display: flex;
+  flex-direction: row;
+}
+.card__inner{
+  width: 50%;
+}

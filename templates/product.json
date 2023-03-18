@@ -34,7 +34,7 @@
         "3cb74ee9-11ff-4fb7-8caf-ce502cf9e874": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.delivery_time.value }}",
+            "text": "Estimated Delivery Time {{ product.metafields.custom.delivery_time.value }}",
             "text_style": "body"
           }
         },

@@ -1,20 +1,25 @@
 {% schema %}
  {
  	"name": "faq",
- 	"tag": "section",
- 	"class": "section",
- 	"settings": [{
- 		"type": "text",
- 		"id": "question",
- 		"label": "Question",
- 		"default": "Hello"
- 	},
+  "settings": [],
+  "blocks": [
     {
- 		"type": "text",
- 		"id": "ans",
- 		"label": "ans",
- 		"default": "Hello"
- 	}],
+      "type": "image",
+      "name": "block",
+      "settings": [
+        {
+          "id": "question",
+          "type": "text",
+          "label": "Question"
+        },
+        {
+          "id": "answer",
+          "type": "text",
+          "label": "Answer"
+        }
+      ]
+    }
+  ],
    "presets": [
     {
       "name": "product faq",

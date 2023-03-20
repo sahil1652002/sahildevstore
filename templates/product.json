@@ -108,10 +108,18 @@
             "question": "Product Quality?",
             "answer": "Very Good"
           }
+        },
+        "6b3dfe53-cddf-49e5-aecf-4e10923ec508": {
+          "type": "image",
+          "settings": {
+            "question": "how are you",
+            "answer": "fine"
+          }
         }
       },
       "block_order": [
-        "c46015b5-1929-43a4-8c23-ca7d6c8b9202"
+        "c46015b5-1929-43a4-8c23-ca7d6c8b9202",
+        "6b3dfe53-cddf-49e5-aecf-4e10923ec508"
       ],
       "settings": {
       }

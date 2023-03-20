@@ -98,10 +98,28 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "f47c2b1e-b4ac-46a6-86df-1bc8f6467fef": {
+      "type": "faq",
+      "blocks": {
+        "c46015b5-1929-43a4-8c23-ca7d6c8b9202": {
+          "type": "image",
+          "settings": {
+            "question": "Product Quality?",
+            "answer": "Very Good"
+          }
+        }
+      },
+      "block_order": [
+        "c46015b5-1929-43a4-8c23-ca7d6c8b9202"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "f47c2b1e-b4ac-46a6-86df-1bc8f6467fef"
   ]
 }

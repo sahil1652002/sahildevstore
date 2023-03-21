@@ -1,7 +1,7 @@
 <h2 class="faq__heading h2 text-center">Review</h2>
 <div class="d-flex">
 {% for block in section.blocks %}
-<div class="card ms-1" style="width: 18rem;">
+<div class="card ms-3" style="width: 18rem;">
   <img class="card-img-top" src="{{ block.settings.review_image | image_url }}" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title"><strong>{{block.settings.title | escape }}</strong></h5>

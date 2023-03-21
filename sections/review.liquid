@@ -1,8 +1,32 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+ {
+ 	"name": "review",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "block",
+      "settings": [
+        {
+          "id": "question",
+          "type": "text",
+          "label": "Question"
+        },
+        {
+          "id": "answer",
+          "type": "text",
+          "label": "Answer"
+        }
+      ]
+    }
+  ],
+   "presets": [
+    {
+      "name": "product faq",
+      "category": "product"
+    }
+  ]
+ }
 {% endschema %}
 
 {% stylesheet %}

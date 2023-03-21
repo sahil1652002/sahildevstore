@@ -135,10 +135,20 @@
             "description_text": "#ce2f2f",
             "review_image": "shopify:\/\/shop_images\/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
           }
+        },
+        "980967bd-1013-4b42-84ef-b9ce7e7926ef": {
+          "type": "image",
+          "settings": {
+            "title": "Pleasing Product",
+            "description": "Using this product has in fact helped my lashes and brows thicken and lengthen.",
+            "description_text": "#22c55c",
+            "review_image": "shopify:\/\/shop_images\/rack-of-womens-clothing.jpg"
+          }
         }
       },
       "block_order": [
-        "d60d2ec1-901b-48d5-913d-ce28b3d59775"
+        "d60d2ec1-901b-48d5-913d-ce28b3d59775",
+        "980967bd-1013-4b42-84ef-b9ce7e7926ef"
       ],
       "settings": {
       }

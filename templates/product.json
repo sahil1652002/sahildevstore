@@ -144,11 +144,21 @@
             "description_text": "#22c55c",
             "review_image": "shopify:\/\/shop_images\/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
           }
+        },
+        "46ff4875-891f-426f-aff2-f04722941364": {
+          "type": "image",
+          "settings": {
+            "title": "Lash Food works so fast!",
+            "description": "My lashes are short and super light. I've tried other really expensive lash enhancers that just made my eyes itchy and red.",
+            "description_text": "#0a65c8",
+            "review_image": "shopify:\/\/shop_images\/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
+          }
         }
       },
       "block_order": [
         "d60d2ec1-901b-48d5-913d-ce28b3d59775",
-        "980967bd-1013-4b42-84ef-b9ce7e7926ef"
+        "980967bd-1013-4b42-84ef-b9ce7e7926ef",
+        "46ff4875-891f-426f-aff2-f04722941364"
       ],
       "settings": {
       }

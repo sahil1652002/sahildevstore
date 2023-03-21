@@ -123,11 +123,17 @@
       ],
       "settings": {
       }
+    },
+    "b072e72f-a280-4efc-b259-934f7b65b723": {
+      "type": "review",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "f47c2b1e-b4ac-46a6-86df-1bc8f6467fef"
+    "f47c2b1e-b4ac-46a6-86df-1bc8f6467fef",
+    "b072e72f-a280-4efc-b259-934f7b65b723"
   ]
 }

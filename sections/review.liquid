@@ -3,8 +3,7 @@
   <img class="card-img-top" src="{{ block.settings.review_image | image_url }}" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">{{block.settings.title | escape }}</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-text">{{block.settings.description | escape }}</p>
   </div>
 </div>
  {% endfor %}

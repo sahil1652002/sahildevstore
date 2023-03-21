@@ -126,6 +126,20 @@
     },
     "b072e72f-a280-4efc-b259-934f7b65b723": {
       "type": "review",
+      "blocks": {
+        "d60d2ec1-901b-48d5-913d-ce28b3d59775": {
+          "type": "image",
+          "settings": {
+            "title": "It really works!",
+            "description": "I love this duo, so much so I plan to reorder in the full size options. I also had people ask if I was wearing false eyelashes! For reference, I do have long eyelashes naturally but this stuff has really helped them to grow out. Plus they’re definitely thicker now. Bonus is it doesn’t irritate my eyes at all. Also, I had a bald spot in my eyebrows that has now started growing hair due to the eyebrow serum. This stuff is a miracle! Definitely worth the money!",
+            "description_text": "#ce2f2f",
+            "review_image": "shopify:\/\/shop_images\/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d60d2ec1-901b-48d5-913d-ce28b3d59775"
+      ],
       "settings": {
       }
     }

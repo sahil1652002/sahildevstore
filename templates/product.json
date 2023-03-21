@@ -153,12 +153,22 @@
             "description_text": "#0a65c8",
             "review_image": "shopify:\/\/shop_images\/png-clipart-shopping-cart-computer-icons-online-shopping-symbol-shopping-logo-design-supermarket-bag-thumbnail.png"
           }
+        },
+        "f326ed2d-d3a7-4959-8c8a-bc7520a2d45c": {
+          "type": "image",
+          "settings": {
+            "title": "need to buy another",
+            "description": "I've gone through 2 bottles of this stuff and love it so much.",
+            "description_text": "#34e66c",
+            "review_image": "shopify:\/\/shop_images\/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
+          }
         }
       },
       "block_order": [
         "d60d2ec1-901b-48d5-913d-ce28b3d59775",
         "980967bd-1013-4b42-84ef-b9ce7e7926ef",
-        "46ff4875-891f-426f-aff2-f04722941364"
+        "46ff4875-891f-426f-aff2-f04722941364",
+        "f326ed2d-d3a7-4959-8c8a-bc7520a2d45c"
       ],
       "settings": {
       }

@@ -7,6 +7,7 @@
       "blocks": {
         "93ef9371-7fae-41c3-92e5-7c80cf04af16": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/hands-holds-a-cell-phone-showing-the-shopify-logo.jpg",
             "image_width": 100,

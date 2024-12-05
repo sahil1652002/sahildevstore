@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -28,7 +35,12 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "settings": {}
+        },
+        "ordergroove_subscriptions_pdp_offer_block_EPQdmi": {
+          "type": "shopify://apps/ordergroove-subscriptions/blocks/pdp-offer-block/cf69fc68-e893-4d33-87e3-4e71e2f5822f",
           "settings": {
+            "location": "www"
           }
         },
         "3cb74ee9-11ff-4fb7-8caf-ce502cf9e874": {
@@ -46,8 +58,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -62,6 +73,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "ordergroove_subscriptions_pdp_offer_block_EPQdmi",
         "3cb74ee9-11ff-4fb7-8caf-ce502cf9e874",
         "buy_buttons",
         "description",
@@ -121,8 +133,7 @@
         "c46015b5-1929-43a4-8c23-ca7d6c8b9202",
         "6b3dfe53-cddf-49e5-aecf-4e10923ec508"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "b072e72f-a280-4efc-b259-934f7b65b723": {
       "type": "review",
@@ -133,7 +144,7 @@
             "title": "It really works!",
             "description": "I love this duo, so much so I plan to reorder in the full size options.",
             "description_text": "#ce2f2f",
-            "review_image": "shopify:\/\/shop_images\/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
+            "review_image": "shopify://shop_images/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
           }
         },
         "980967bd-1013-4b42-84ef-b9ce7e7926ef": {
@@ -142,7 +153,7 @@
             "title": "Pleasing Product",
             "description": "Using this product has in fact helped my lashes and brows thicken and lengthen.",
             "description_text": "#22c55c",
-            "review_image": "shopify:\/\/shop_images\/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
+            "review_image": "shopify://shop_images/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
           }
         },
         "46ff4875-891f-426f-aff2-f04722941364": {
@@ -151,7 +162,7 @@
             "title": "Lash Food works so fast!",
             "description": "My lashes are short and super light. I've tried other really expensive lash",
             "description_text": "#0a65c8",
-            "review_image": "shopify:\/\/shop_images\/png-clipart-shopping-cart-computer-icons-online-shopping-symbol-shopping-logo-design-supermarket-bag-thumbnail.png"
+            "review_image": "shopify://shop_images/png-clipart-shopping-cart-computer-icons-online-shopping-symbol-shopping-logo-design-supermarket-bag-thumbnail.png"
           }
         },
         "f326ed2d-d3a7-4959-8c8a-bc7520a2d45c": {
@@ -160,7 +171,7 @@
             "title": "need to buy another",
             "description": "I've gone through 2 bottles of this stuff and love it so much.",
             "description_text": "#34e66c",
-            "review_image": "shopify:\/\/shop_images\/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
+            "review_image": "shopify://shop_images/pngtree-sl-market-shop-logo-design-vector-image_311148.jpg"
           }
         }
       },
@@ -170,13 +181,12 @@
         "46ff4875-891f-426f-aff2-f04722941364",
         "f326ed2d-d3a7-4959-8c8a-bc7520a2d45c"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "e59111c3-01f4-40b1-a144-7f4004d24c9f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}\/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price\/100,\n      $value: data.total_price\/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price\/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}\/cart\/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='\/cart\/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n<\/script>",
+        "custom_liquid": "<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price/100,\n      $value: data.total_price/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}/cart/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='/cart/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n</script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
